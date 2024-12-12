@@ -40,7 +40,7 @@ const carrinhoSlice = createSlice({
 })
 
 // Exporta a ação "adicionar" desestruturada, para facilitar seu uso em outras partes do código
-const { adicionar } = carrinhoSlice.actions
+export const { adicionar } = carrinhoSlice.actions
 
 // Exporta o reducer como padrão, que será usado pelo Redux para configurar o store
 export default carrinhoSlice.reducer
